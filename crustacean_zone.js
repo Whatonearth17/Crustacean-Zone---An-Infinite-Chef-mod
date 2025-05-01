@@ -6,6 +6,28 @@ addIngredient("crab_claw",{
     keywords:"crab,claw,seafood",
     dishName:"crab_claw",
     adj:"crab_claw",
+    hidden:false
+  });
+
+addIngredient("crab_sticks",{
+    type:"crab",
+    shape:"rod_wavy",
+    stackShape:"rectangle_thinner_round",
+    group:"generic",
+    scale:1.3,
+    keywords:"crab,sticks,imitation,sushi,seafood",
+    dishName:"crab_stick",
+    adj:"crab_stick",
     hidden:false,
-    broken:"crab_claw"
+    broken:"ground_crab"
+  });
+
+addIngredient("ground_crab",{
+    type:"ground_crab_claw",
+    scale:1.0,
+    color:"#ECDCBE",
+    dishName:"ground_crab",
+    adj:"ground_crab",
+    hidden:true,
+    broken:"ground_crab"
   });
