@@ -96,3 +96,59 @@ addIngredient("ground_stone_crab",{
     hidden:true,
     broken:"ground_stone_crab"
   });
+
+addIngredient("peekytoe_crab",{
+    type:"crab",
+    group:"generic",
+    scale:1.0,
+    color:"#906F61",
+    keywords:"crab,peekytoe,seafood,crustacean",
+    dishName:"peekytoe_crab",
+    adj:"peekytoe_crab",
+    hidden:false,
+    broken:"ground_peekytoe_crab"
+  });
+
+addIngredient("ground_peekytoe_crab",{
+    type:"ground_crab",
+    color:"#FFFFFF",
+    dishName:"ground_peekytoe_crab",
+    adj:"ground_peekytoe_crab",
+    hidden:true,
+    broken:"ground_peekytoe_crab"
+  });
+
+addIngredient("japanese_spider_crab",{
+    type:"crab",
+    group:"generic",
+    scale:2.2,
+    color:"#BF3C42",
+    keywords:"crab,japan,seafood,spider,crustacean",
+    dishName:"japanese_spider_crab",
+    adj:"japanese_spider_crab",
+    hidden:false,
+    broken:"ground_japanese_spider_crab"
+  });
+
+addIngredient("ground_japenese_spider_crab",{
+    type:"ground_crab",
+    color:"#D3B5A7",
+    scale:2.0,
+    dishName:"ground_japenese_spider_crab",
+    adj:"ground_japenese_spider_crab",
+    hidden:true,
+    broken:"ground_japenese_spider_crab"
+  });
+
+addIngredient("horseshoe_crab",{
+    type:"crab",
+    shape:"ribbed_thick",
+    group:"generic",
+    scale:0.9,
+    color:"#25272A",
+    keywords:"crab,horseshoe,seafood,small,crustacean",
+    dishName:"horseshoe_crab",
+    adj:"horseshoe_crab",
+    hidden:false,
+    broken:"horseshoe_crab"
+  });
