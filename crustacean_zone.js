@@ -152,3 +152,32 @@ addIngredient("horseshoe_crab",{
     hidden:false,
     broken:"horseshoe_crab"
   });
+
+addIngredient("rock_crab",{
+    type:"stone_crab",
+    color:"#470E0E",
+    keywords:"crab,rock,seafood,stone,crustacean",
+    dishName:"rock_crab",
+    adj:"rock_crab",
+    hidden:false,
+  });
+
+addIngredient("coconut_crab",{
+    type:"crab",
+    scale:1.2,
+    color:"#906C48",
+    keywords:"crab,coconut,seafood,crustacean",
+    dishName:"coconut_crab",
+    adj:"coconut_crab",
+    hidden:false,
+    broken:"ground_coconut_crab"
+  });
+
+addIngredient("ground_coconut_crab",{
+    type:"ground_crab",
+    scale:1.2,
+    dishName:"ground_coconut_crab",
+    adj:"ground_coconut_crab",
+    hidden:true,
+    broken:"ground_coconut_crab"
+  });
