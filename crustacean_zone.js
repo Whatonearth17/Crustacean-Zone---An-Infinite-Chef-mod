@@ -181,3 +181,69 @@ addIngredient("ground_coconut_crab",{
     hidden:true,
     broken:"ground_coconut_crab"
   });
+
+addIngredient("snow_crab_claw",{
+    type:"snow_crab",
+    shape:"crescent",
+    group:"generic",
+    scale:0.7,
+    keywords:"crab,claw,snow,seafood",
+    dishName:"snow_crab_claw",
+    adj:"snow_crab_claw",
+    hidden:false
+  });
+
+addIngredient("king_crab_claw",{
+    type:"king_crab",
+    shape:"crescent",
+    group:"generic",
+    scale:1.0,
+    keywords:"crab,claw,king,seafood",
+    dishName:"king_crab_claw",
+    adj:"king_crab_claw",
+    hidden:false
+  });
+
+addIngredient("stone_crab_claw",{
+    type:"stone_crab",
+    shape:"crescent",
+    group:"generic",
+    scale:0.7,
+    keywords:"crab,claw,stone,seafood",
+    dishName:"stone_crab_claw",
+    adj:"stone_crab_claw",
+    hidden:false
+  });
+
+addIngredient("rock_crab_claw",{
+    type:"rock_crab",
+    shape:"crescent",
+    group:"generic",
+    scale:0.7,
+    keywords:"crab,claw,rock,seafood",
+    dishName:"rock_crab_claw",
+    adj:"rock_crab_claw",
+    hidden:false
+  });
+
+addIngredient("peekytoe_crab_claw",{
+    type:"peekytoe_crab",
+    shape:"crescent",
+    group:"generic",
+    scale:0.7,
+    keywords:"crab,claw,peekytoe,seafood",
+    dishName:"peekytoe_crab_claw",
+    adj:"peekytoe_crab_claw",
+    hidden:false
+  });
+
+addIngredient("coconut_crab_claw",{
+    type:"coconut_crab",
+    shape:"crescent",
+    group:"generic",
+    scale:1.0,
+    keywords:"crab,claw,coconut,seafood",
+    dishName:"coconut_crab_claw",
+    adj:"peekytoe_crab_claw",
+    hidden:false
+  });
