@@ -24,10 +24,75 @@ addIngredient("crab_sticks",{
 
 addIngredient("ground_crab",{
     type:"ground_crab_claw",
-    scale:1.0,
+    shape:"rectangle_thinner_round",
+    scale:1.3,
     color:"#ECDCBE",
     dishName:"ground_crab",
     adj:"ground_crab",
-    hidden:true,
+    hidden:false,
     broken:"ground_crab"
+  });
+
+addIngredient("snow_crab",{
+    type:"crab",
+    group:"generic",
+    scale:1.2,
+    color:"#C4724F",
+    keywords:"crab,snow,seafood,crustacean",
+    dishName:"snow_crab",
+    adj:"snow_crab",
+    hidden:false,
+    broken:"ground_snow_crab"
+  });
+
+addIngredient("ground_snow_crab",{
+    type:"ground_crab",
+    scale:1.3,
+    dishName:"ground_snow_crab",
+    adj:"ground_snow_crab",
+    hidden:true,
+    broken:"ground_snow_crab"
+  });
+
+addIngredient("king_crab",{
+    type:"crab",
+    group:"generic",
+    scale:2.0,
+    color:"#DF5920",
+    keywords:"crab,king,seafood,big,crustacean",
+    dishName:"king_crab",
+    adj:"king_crab",
+    hidden:false,
+    broken:"ground_king_crab"
+  });
+
+addIngredient("ground_king_crab",{
+    type:"ground_crab",
+    color:"#E9D0A2",
+    scale:2.0,
+    dishName:"ground_king_crab",
+    adj:"ground_king_crab",
+    hidden:true,
+    broken:"ground_king_crab"
+  });
+
+addIngredient("stone_crab",{
+    type:"crab",
+    group:"generic",
+    scale:1.0,
+    color:"#382617",
+    keywords:"crab,stone,seafood,crustacean",
+    dishName:"stone_crab",
+    adj:"stone_crab",
+    hidden:false,
+    broken:"ground_stone_crab"
+  });
+
+addIngredient("ground_stone_crab",{
+    type:"ground_crab",
+    color:"#DFC0A7",
+    dishName:"ground_stone_crab",
+    adj:"ground_stone_crab",
+    hidden:true,
+    broken:"ground_stone_crab"
   });
