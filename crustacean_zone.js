@@ -1,0 +1,11 @@
+addIngredient("crab_claw",{
+    type:"crab",
+    shape:"crescent",
+    group:"generic",
+    scale:0.7,
+    keywords:"crab,claw,seafood",
+    dishName:"crab_claw",
+    adj:"crab_claw",
+    hidden:false,
+    broken:"crab_claw"
+  });
