@@ -247,3 +247,20 @@ addIngredient("coconut_crab_claw",{
     adj:"peekytoe_crab_claw",
     hidden:false
   });
+
+addIngredient("ground_blue_crab",{
+    type:"ground_crab",
+    color:"#7A82B8",
+    dishName:"ground_blue_crab",
+    adj:"ground_blue_crab",
+    hidden:true,
+    broken:"ground_blue_crab"
+  });
+
+editIngredient("crab",{
+    broken:"ground_crab"
+});
+
+editIngredient("blue_crab",{
+    broken:"ground_blue_crab"
+});
